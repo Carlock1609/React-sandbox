@@ -1,0 +1,30 @@
+.Navigation {
+    padding: 0 20%;
+    height: 54px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background: #fff;
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+.nav-search-container {
+    /* display: flex; */
+    margin-left: 30%!important;
+    /* justify-content: center; */
+}
+.nav-search-input {
+    text-align: center;
+    font-size: 14px;;
+}
+
+.nav-icon {
+    font-size: 1.4rem;
+    padding: 0 4px 0 4px;
+}
+.form-inline .form-control {
+    /* height: ; */
+    height: 27px;
+    /* width: 110%; */
+    width: 200px;
+    background: rgb(245, 245, 245);
+}

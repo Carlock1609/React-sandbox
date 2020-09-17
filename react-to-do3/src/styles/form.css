@@ -1,0 +1,113 @@
+.App {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 500px;
+    width: 800px;
+    background: lightblue;
+}
+@media (max-width: 700px) {
+    .App {
+        left: 10px;
+        width: 100%;
+    }
+}
+
+.TodoList {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    color: white;
+}
+.Todo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: grey;
+    margin: 5px 0 5px 0;
+    padding: 5px 5px 5px 10px;
+}
+
+.todo-text {
+    font-size: x-large;
+}
+.todo-input {
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    box-shadow: none;
+}
+.todo-input:focus {
+    background-color: white;
+}
+.todo-input::placeholder {
+    color: white;
+    font-size: large;
+}
+.todo-btns {
+    margin-bottom: 5px;
+    position: absolute;
+    left:  70%;
+}
+.btn {
+    background: white;
+    border-radius: 5px;
+    height: 29px;
+    padding: 0 8px 0 8px;
+    border: 0;
+}
+.remove-btn {
+    margin-left: 3px;
+}
+.complete-btn:hover {
+    background: rgb(176, 255, 176);
+    transition: .5s;
+}
+.complete-btn:active {
+    background: lightgray;
+}
+.remove-btn:hover {
+    background: red;
+    transition: .5s;
+}
+.remove-btn:active {
+    background: lightgray;
+}
+
+.TodoForm {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 45%;
+
+}
+.TodoForm > div {
+    /* color: white; */
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+    font-size: x-large;
+}
+.todo-input-btn {
+    position: relative;
+    left: 15%;
+    /* margin: 5px; */
+    top: 15px;
+    padding: 0 100px 0 100px;
+}
+.todo-input-btn:hover {
+    background: rgb(176, 255, 176);
+    transition: .5s;
+}
+.max-length {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    top: 15%;
+    left: 24%;
+}

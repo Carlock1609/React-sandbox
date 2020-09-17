@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background: darkgray;
+}
+
+.App {
+    position: relative;
+    margin: 0 20%;
+    background: rgba(224, 255, 255, 0.432);
+    height: 100vh;
+}
+.Post {
+    position: relative;
+    margin: 50px 5px;
+    width: 98.3%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 10px 10px 30px 1px black;
+    background: rgb(255, 255, 255);
+}
+.post-status {
+    padding: 5px;
+    margin-left: 10px;
+}
+.post-time {
+    color: gray;
+}
+.post-auth-user {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0 0 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightpink;
+}
+.post-auth-user > div {
+    margin: 10px 0 0 15px
+}
+.post-auth-user > img{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+.PostForm > input {
+    /* color: rgb(165, 165, 165); */
+    font-size: 18px;
+    margin: 4px;
+    width: 97.5%;
+    height: 30px;
+    padding: 5px;
+    border: 0;
+    background: rgba(224, 255, 255, 0);
+    border-bottom: 1px solid black;
+}
+.CommentForm > input {
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    height: 20px;
+    width: 98%;
+}
+.post-comments {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     width: 96%;
+    margin: 5% 1%;
+    padding: 5px;
+    background: lightblue;
+    height: 120px;
+}
+
+@media (max-width: 1000px) {
+    .Post {
+        width: 96%;
+    }
+    .PostForm > input {
+        width: 93%;
+    }
+}
