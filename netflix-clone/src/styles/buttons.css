@@ -1,0 +1,20 @@
+.Button {
+    border: 0;
+    padding: .6rem 2rem;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: large;
+}
+.Button:hover {
+    opacity: .6;
+}
+.btn-dark {
+    background: grey;
+    color: white;
+    /* opacity: .8; */
+}
+.btn-light {
+    background: white;
+    color: black;
+    /* opacity: .8; */
+}
