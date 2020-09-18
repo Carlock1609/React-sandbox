@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import MovieCard from './MovieCard';
 
@@ -23,12 +23,14 @@ const dummyData = [
 
 const MovieList = ({ dummyTitle }) => {
 
+
     const displayRows = dummyData.map((movie, index) => (
         <MovieCard
             key={index}
             movie={movie}
         />
     ))
+
 
     return (
         <div className="MovieList">
@@ -38,6 +40,7 @@ const MovieList = ({ dummyTitle }) => {
                 {displayRows}
                 {displayRows}
                 {displayRows}
+                <button className={`movie-right-arrow`}>{'>'}</button>
         </div>
     );
 };

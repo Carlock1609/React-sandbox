@@ -1,14 +1,22 @@
 
 .MovieList {
-
+    /* z-index: -100; */
     position: relative;
     bottom: 100px;
     display: flex;
     flex-wrap: nowrap;
     margin: 0 0 50px -15px;
+    /* overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+    transform-origin: right top; */
+    /* white-space: nowrap; */
+    overflow-x: auto;
 
-    white-space: nowrap;
 }
+.MovieList::-webkit-scrollbar {
+    display: none;
+  }
 
 .MovieCard {
     position: relative;
@@ -19,14 +27,31 @@
     background-color: white;
     margin: 20px 2px;
     border-radius: 4px;
-    /* overflow: hidden; */
 }
 .movie-row-title {
     position: absolute;
     left: 55px;
     top: -25px;
-    /* top: 50%; */
+
     margin: 5px 5px 40px 5px;
     color: white;
     font-size: x-large;
 }
+.movie-right-arrow {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: xx-large;
+    opacity: .5;
+    padding: 44px 5px 44px 5px;
+    color: white;
+    background: rgb(211, 211, 211);
+}
+.movie-right-arrow:hover {
+    color: white;
+    background: rgb(211, 211, 211);
+    opacity: .9;
+    transition: .5s;
+}
+
+
