@@ -3,6 +3,9 @@
     height: 700px;
     width: 100%;
     background: url('https://occ-0-1340-1339.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTfIlS7dIIlDfTQVL5UaI-bbh9dUMfsRUHy8FSeq_dDocZpE-sQv6tbY4JP_uLr8xkwLpIVnK4OGO3r6RYT2JFpy6icb.webp?r=3d0');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .header-title {
     position: absolute;

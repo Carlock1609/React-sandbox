@@ -1,0 +1,32 @@
+
+.MovieList {
+
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 0 50px -15px;
+
+    white-space: nowrap;
+}
+
+.MovieCard {
+    position: relative;
+    left: 55px;
+    flex: 0 0 auto;
+    height: 125px;
+    width: 230px;
+    background-color: white;
+    margin: 20px 2px;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+.movie-row-title {
+    position: absolute;
+    left: 55px;
+    top: -25px;
+    /* top: 50%; */
+    margin: 5px 5px 40px 5px;
+    color: white;
+    font-size: x-large;
+}

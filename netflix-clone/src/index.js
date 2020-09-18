@@ -7,6 +7,7 @@ import './styles/index.css';
 import './styles/header.css';
 import './styles/buttons.css';
 import './styles/navigation.css';
+import './styles/movies.css';
 
 ReactDOM.render(
     <App />,
